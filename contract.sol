@@ -16,7 +16,7 @@ contract Will {
     }
     
     function jackWithdraw(uint password1, uint password2) public {
-        if (now < deadline && password1 == passwordJack && password2 == passwordAttoney) {
+        if (now < deadline && password1 == passwordJack && password2 == passwordAttorney) {
             msg.sender.transfer(amt);
         }
     }
